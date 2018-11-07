@@ -1,0 +1,10 @@
+[Unit]
+Description=GoLang HTTP Server
+
+[Service]
+User=sohaib_nawaz18
+WorkingDirectory=/opt/goLang-http-server/
+ExecStart=/opt/goLang-http-server/goWebServer
+
+[Install]
+WantedBy=multi-user.target
